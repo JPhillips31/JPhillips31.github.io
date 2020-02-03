@@ -1,0 +1,182 @@
+/*
+Mist - #90AFC5
+Stone - #336B87
+Shadow - #2A3132
+Autumn - #763626
+*/
+
+body {
+	margin: 0;
+	background-color: #90AFC5;
+}
+
+.NavBarContainer {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	/* 10px margin on bottom */
+	margin: 0 0 10px 0;
+	padding: 20px;
+	background-color: #2A3132;
+}
+
+.NavBarItem {
+	margin: 5px;
+}
+
+#CAP_Logo {
+	max-height: 70px;
+	vertical-align: middle;
+}
+
+.NavigationButton {
+	color: #90AFC5;
+	text-decoration: none;
+	font-size: 4em;
+	font-family: 'Handlee', cursive;
+}
+
+.NavigationButton:hover {
+	color: #763626;
+	text-decoration: underline;
+}
+
+sep {
+	font-size: 4em;
+	color: #763626;
+}
+
+.HomePageImageContainer, .GalleryImageContainer {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+}
+
+.HomePageImageItemContainer, .GalleryImageItemContainer {
+	display: flex;
+	flex-flow: column wrap;
+	align-items: center;
+	margin: 5px;
+}
+
+.HomePageImageItem, .GalleryImageItem {
+	margin-bottom: 10px;
+}
+
+.GalleryImage {
+	border: 4px solid #763626;
+	border-radius: 10px;
+}
+
+#GalleryHeading {
+	margin: 10px;
+	font-size: 3em;
+	font-family: 'Handlee', cursive;
+	color: #2A3132;
+}
+
+.HomepageImage {
+	border: 4px solid #763626;
+	border-radius: 10px;
+	max-width: 500px;
+}
+
+.GalleryImage {
+	border: 4px solid #763626;
+	border-radius: 10px;
+	max-width: 400px;
+}
+
+.ViewGalleryButton {
+	background-color: #90AFC5;
+	font-size: 3em;
+	text-align: center;
+	font-family: 'Handlee', cursive;
+	color: #763626;
+	/* 10px on r and l, 3px on top and bottom */
+	padding: 3px 10px 3px 10px;
+	border: 4px solid #763626;
+	border-radius: 10px;
+}
+
+.ViewGalleryButton:hover {
+	background-color: #763626;
+	color: #90AFC5;
+}
+
+#HomepageHSeparator {
+	width: 90%;
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(42, 49, 50, 0.10), rgba(42, 49, 50, 0.75), rgba(42, 49, 50, 0.10));
+	align: center;
+}
+
+.HomePageAboutContainer {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+
+.HomePageAboutItem {
+	/* 10px on r and l, 0 on top and bottom */
+	padding: 0 10px 0 10px;
+	margin: 5px;
+	max-width: 900px;
+	font-size: 2em;
+	font-family: 'Handlee', cursive;
+	text-align: center;
+}
+
+#AboutDescription {
+	background-color: cornsilk;
+	border: 4px solid #763626;
+	border-radius: 10px;
+}
+
+.FooterContainer {
+	margin-top: 15px;
+	padding: 10px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	background-color: #2A3132;
+	min-height: 80px;
+}
+
+#Quote {
+	text-align: right;
+}
+
+.FooterItem {
+	font-size: 2em;
+	font-family: 'Handlee', cursive;
+	color: #90AFC5;
+	width: 50%;
+}
+
+.BookingsContainer {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+	font-family: 'Handlee', cursive;
+}
+
+.BookingsItem {
+	background-color: #2A3132;
+	border: 4px solid #763626;
+	border-radius: 10px;
+	font-size: 2em;
+	padding: 10px;
+	color: #90AFC5;
+}
+
+heading {
+	font-size: 1.5em;
+}
+
+table, th, td {
+	border: 1px solid #763626;
+	padding: 3px;
+	text-align: center;
+}
