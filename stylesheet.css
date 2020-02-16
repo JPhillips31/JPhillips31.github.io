@@ -79,7 +79,7 @@ button:hover {
 	background-color: #90AFC5;
 }	
 
-@media only screen and (min-width : 400px) {
+@media only screen and (min-width : 350px) {
 	.calculator {
 		width: 100%;
 	}
