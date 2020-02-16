@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Jeremy's Calculator</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="script.js"></script>
+
+<div class="calculator">
+
+  <input type="text" ID="calculator-display"disabled />
+  
+  <div class="calculator-buttons">
+	<button type="button" class="input-key" value="(">(</button>
+    <button type="button" class="input-key" value=")">)</button>
+    <button type="button" ID="clear-key" value="clear">C</button>
+
+    <button type="button" class="input-key" value="7">7</button>
+    <button type="button" class="input-key" value="8">8</button>
+    <button type="button" class="input-key" value="9">9</button>
+    <button type="button" class="operator" value="/">/</button>
+	
+	<button type="button" class="input-key" value="4">4</button>
+    <button type="button" class="input-key" value="5">5</button>
+    <button type="button" class="input-key" value="6">6</button>
+    <button type="button" class="operator" value="*">*</button>
+	
+	<button type="button" class="input-key" value="1">1</button>
+    <button type="button" class="input-key" value="2">2</button>
+    <button type="button" class="input-key" value="3">3</button>
+    <button type="button" class="operator" value="-">-</button>
+
+    <button type="button" class="input-key" value="0">0</button>
+    <button type="button" class="input-key" class="decimal" value=".">.</button>
+    <button type="button" ID="equal-key" value="=">=</button>
+    <button type="button" class="operator" value="+">+</button>
+
+  </div>
+</div>
+
+</body>
+</html>

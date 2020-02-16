@@ -1,0 +1,93 @@
+/*
+Mist - #90AFC5
+Stone - #336B87
+Shadow - #2A3132
+Autumn - #763626
+*/
+
+html {
+	background-color: #2A3132;
+	box-sizing: border-box;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+.calculator {
+	background-color: #2A3132;
+	border: 3px solid #336B87;
+	border-radius: 10px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 5px;
+}
+
+#calculator-display {
+	width: 100%;
+	font-size: 4em;
+	height: 80px;
+	border: 3px solid #336B87;
+	border-radius: 10px;
+	background-color: #2A3132;
+	color: white;
+	text-align: right;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.calculator-buttons {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 5px;
+	padding: 5px;
+}
+
+button {
+	height: 60px;
+	border: 2px solid #90AFC5;
+	border-radius: 10px;
+	background-color: transparent;
+	font-size: 2em;
+	color: white;
+	outline: none;
+}
+
+button:hover {
+	background-color: #90AFC5;
+}
+
+#clear-key {
+	background-color: #73200b;
+	color: white;
+	grid-column: 3/5;
+}
+
+#clear-key:hover {
+	background-color: #763626;
+}
+
+#equal-key {
+	background-color: #336B87;
+	color: white;
+}
+#equal-key:hover {
+	background-color: #90AFC5;
+}	
+
+@media only screen and (min-width : 400px) {
+	.calculator {
+		width: 100%;
+	}
+}
+
+
+@media only screen and (min-width : 992px) {
+	.calculator {
+		width: 600px;
+	}
+}
